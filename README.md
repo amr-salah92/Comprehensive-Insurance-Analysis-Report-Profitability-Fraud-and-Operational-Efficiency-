@@ -79,8 +79,6 @@ Business model centers on broker-distributed policies with manual claims process
 - **Issue**: 25% of policies (12,500) fall below 0.85  
 - **Resolution**: Scripts align solvency calculations with SAMA's formula:  
 
-# Insurance Portfolio Analysis Methodology
-
 ## 7. Methodology
 
 ### Machine Learning
