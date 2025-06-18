@@ -139,10 +139,8 @@ Business model centers on broker-distributed policies with manual claims process
 ## 9. Documenting Issues
 | Table               | Column             | Issue                      | Magnitude | Solvable? | Resolution                      |
 |---------------------|--------------------|----------------------------|-----------|-----------|---------------------------------|
-| `customer_activity` | `renewals`         | 100% null values           | High      | Yes       | Integrate renewal tracking API  |
 | `customer_activity` | `persistency_rate` | All values = 0.0           | High      | Yes       | Map to policy lifecycle dates   |
 | `financials`        | `loss_ratio`       | 7% records > 40            | Medium    | Yes       | Cap at logical max (10.0)       |
-| `policy_master`     | `region`           | 15% records "UNK"          | Low       | No        | Exclude from geo-analysis       |
 
 ---
 
